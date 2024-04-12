@@ -55,7 +55,6 @@ const App = () => {
             <Education />
             <Projects />
             <BlogPosts enabled={false} />
-            <OpenSource />
             <ExtraCurricular />
           </div>
         </div>

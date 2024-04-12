@@ -23,9 +23,10 @@ const SkillCard = (props) => {
     >
       <div className="relative w-3 h-3 bg-gray-200 rounded-full top-5 right-[6.2px] border dark:border-gray-900 dark:bg-gray-700"></div>
       <div className="flex flex-row items-center mb-6 ml-6">
-        <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px]">
-          {props.title}
-        </h4>
+      <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px]" style={{ color: 'white' }}>
+  {props.title}
+</h4>
+
       </div>
       <div className="grid grid-cols-3 gap-8 ml-8">
         {props.items.map((item, index) => (
@@ -80,9 +81,10 @@ const ExperienceCard = (props) => {
             } ml-4`}
           >
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {position.title}
-            </h3>
+            <h3 className="text-lg font-semibold" style={{ color: 'white' }}>
+  {position.title}
+</h3>
+
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               {position.duration}
             </time>

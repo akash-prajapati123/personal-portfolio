@@ -46,6 +46,7 @@ import huntly from "./huntly.png";
 import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
+import IITR from "./IITR.png";
 
 export {
   airbnb,
@@ -53,6 +54,7 @@ export {
   binance,
   card,
   coinbase,
+  IITR,
   dropbox,
   quotes,
   robot,
